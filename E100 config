@@ -1,0 +1,1148 @@
+{
+  "v": "2.0",
+  "header": {
+    "v": "0.1",
+    "name": "E 100",
+    "gameVersion": "0.2.35.2",
+    "mass": 138280,
+    "creationDate": "1945.05.09",
+    "class": "",
+    "desc": ""
+  },
+  "blueprints": [
+    {
+      "id": 1,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.0",
+        "name": "Hauptfarbe",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.1,
+        "roughness": 0.475000024,
+        "metallic": 0.45,
+        "r": 0.29,
+        "g": 0.29,
+        "b": 0.29,
+        "saturation": 0.859999955,
+        "condition": 0.7,
+        "grime": 0.45
+      }
+    },
+    {
+      "id": 2,
+      "type": "paintJob",
+      "blueprint": {
+        "v": "2.0",
+        "name": "Powertrain",
+        "description": "",
+        "colourMapUrl": "821c5c82-a326-46ca-bfd0-bd2a75830ed7",
+        "scale": 0.5,
+        "roughness": 0.5,
+        "metallic": 0.0,
+        "r": 0.25,
+        "g": 0.4,
+        "b": 0.5,
+        "saturation": 0.75,
+        "condition": 0.75,
+        "grime": 0.0
+      }
+    },
+    {
+      "id": 3,
+      "type": "chassis",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "length": 6000,
+        "width": 2000,
+        "groundClearance": 575
+      }
+    },
+    {
+      "id": 7,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "armourVolume": 7.2874074,
+        "bodyMeshVuid": 4,
+        "partRepositioning": false
+      }
+    },
+    {
+      "id": 14,
+      "type": "engine",
+      "blueprint": {
+        "v": "0.4",
+        "name": "Maybach neues projekt",
+        "description": "",
+        "cylinders": 16,
+        "idleRPM": 800,
+        "cylinderDisplacement": 2.85,
+        "tech": 1.0,
+        "targetMinRPM": 1500,
+        "targetMaxRPM": 3000,
+        "torqueCoeff": 1.0,
+        "revLimit": -1
+      }
+    },
+    {
+      "id": 19,
+      "type": "transmission",
+      "blueprint": {
+        "v": "0.1",
+        "name": "e100",
+        "description": "",
+        "autoInputTorque": true,
+        "maxInputTorque": 3381.283,
+        "autoResistanceTorque": true,
+        "maxResistanceTorque": 6762.566,
+        "d": [
+          10.0,
+          3.0,
+          2.0,
+          1.5,
+          1.2,
+          1.0,
+          0.857142866,
+          0.75
+        ],
+        "r": [
+          10.0,
+          4.0
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "type": "track",
+      "blueprint": {
+        "v": "1.0",
+        "name": "E100 verträkketten",
+        "description": "",
+        "separation": 1950,
+        "length": 6000,
+        "rrCoeff": 1.0,
+        "brake": 968094,
+        "autoBrake": true,
+        "rollersEnabled": false,
+        "matchChassis": false,
+        "frontalTransmission": true
+      }
+    },
+    {
+      "id": 27,
+      "type": "trackWheelMount",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
+        "scale": 1.24,
+        "x": 0,
+        "y": 200,
+        "z": 388,
+        "rearFacing": false
+      }
+    },
+    {
+      "id": 28,
+      "type": "trackWheel",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "wheelID": "8b31d0e4-3946-4a3a-81ef-b2bbf3a84989",
+        "perAxle": 1,
+        "spacingOnAxle": 0.0,
+        "xOffset": 0.017,
+        "diameter": 1.1,
+        "width": 1.025
+      }
+    },
+    {
+      "id": 36,
+      "type": "trackWheelMount",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "mountID": "25261a10-1c39-4191-9378-b6108d71cbf1",
+        "scale": 1.0,
+        "x": 0,
+        "y": 85,
+        "z": -399,
+        "rearFacing": true
+      }
+    },
+    {
+      "id": 37,
+      "type": "trackWheel",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "wheelID": "ed05e419-9705-41ac-801c-11a0a0dd0700",
+        "perAxle": 2,
+        "spacingOnAxle": 0.149999991,
+        "xOffset": 0.24,
+        "diameter": 0.8,
+        "width": 0.14
+      }
+    },
+    {
+      "id": 45,
+      "type": "trackWheelArray",
+      "blueprint": {
+        "v": "0.2",
+        "name": "",
+        "description": "",
+        "spacingMode": 0,
+        "spacing": 1300,
+        "length": 6000,
+        "count": 1,
+        "interleaveOverlapFraction": 0.0,
+        "groupSpacing": 0,
+        "perGroup": 1,
+        "groupingOffset": 0,
+        "zOrigin": 0,
+        "yOrigin": 0,
+        "xOrigin": -3000,
+        "zOffset": 0,
+        "yOffset": 671,
+        "xOffset": 5408,
+        "syncLengthEnabled": false,
+        "angle": 0.0
+      }
+    },
+    {
+      "id": 46,
+      "type": "trackWheelMount",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "mountID": "062b2d20-13d5-4dec-9d1c-b2855fdccfac",
+        "scale": 0.5,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "rearFacing": true
+      }
+    },
+    {
+      "id": 47,
+      "type": "trackWheel",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "wheelID": "50907d5b-dde1-451c-a0be-07c69d2fc886",
+        "perAxle": 2,
+        "spacingOnAxle": 0.05,
+        "xOffset": 0.05,
+        "diameter": 0.2,
+        "width": 0.14
+      }
+    },
+    {
+      "id": 50,
+      "type": "trackWheelArray",
+      "blueprint": {
+        "v": "0.2",
+        "name": "",
+        "description": "",
+        "spacingMode": 1,
+        "spacing": 135,
+        "length": 6000,
+        "count": 8,
+        "interleaveOverlapFraction": 0.65,
+        "groupSpacing": 50,
+        "perGroup": 1,
+        "groupingOffset": 0,
+        "zOrigin": 0,
+        "yOrigin": 0,
+        "xOrigin": -3000,
+        "zOffset": 0,
+        "yOffset": -25,
+        "xOffset": 33,
+        "syncLengthEnabled": false,
+        "angle": 0.0
+      }
+    },
+    {
+      "id": 51,
+      "type": "trackWheelMount",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "mountID": "6b0a1425-3943-491b-ad87-f56d8b811e19",
+        "scale": 0.6,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "rearFacing": true
+      }
+    },
+    {
+      "id": 52,
+      "type": "trackWheel",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "wheelID": "403468f2-aa8b-43d8-9811-f03ee326d565",
+        "perAxle": 2,
+        "spacingOnAxle": 0.0,
+        "xOffset": 0.0,
+        "diameter": 0.95,
+        "width": 0.19
+      }
+    },
+    {
+      "id": 55,
+      "type": "trackBelt",
+      "blueprint": {
+        "v": "1.1",
+        "name": "",
+        "description": "",
+        "segmentID": "24fc57c7-b8cf-4949-8671-0721525c9d10",
+        "x": 1000,
+        "y": 75,
+        "z": 200,
+        "pitch": 200,
+        "tension": 20000
+      }
+    },
+    {
+      "id": 126,
+      "type": "suspension",
+      "blueprint": {
+        "v": "0.5",
+        "name": "",
+        "description": "",
+        "targetAngle": -15.0,
+        "upTravelLimit": 1000.0,
+        "damper": 200.0,
+        "armLength": 50
+      }
+    },
+    {
+      "id": 127,
+      "type": "torsionBar",
+      "blueprint": {
+        "v": "0.0",
+        "name": "",
+        "description": "",
+        "torsionBarLength": 1500,
+        "torsionBarDiameter": 60
+      }
+    },
+    {
+      "id": 10,
+      "type": "turretRing",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "ringHeight": 25,
+        "ringDiameter": 2463,
+        "ringThickness": 10,
+        "motorVuid": 261
+      }
+    },
+    {
+      "id": 11,
+      "type": "turret",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "maxRot": 180,
+        "minRot": -180
+      }
+    },
+    {
+      "id": 12,
+      "type": "motor",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "torque": 2000.0,
+        "ratio": 65.0,
+        "type": 1,
+        "resist": 0.5
+      }
+    },
+    {
+      "id": 13,
+      "type": "turretBasket",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "segments": [
+          {
+            "diameter": 2463,
+            "depth": 580
+          },
+          {
+            "diameter": 1779,
+            "depth": 603
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 4.05269575,
+        "bodyMeshVuid": 0,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 17,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.0017328423,
+        "bodyMeshVuid": 2,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 18,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.0017328423,
+        "bodyMeshVuid": 2,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 21,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.0017328423,
+        "bodyMeshVuid": 2,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 22,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.0017328423,
+        "bodyMeshVuid": 2,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 23,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.0017328423,
+        "bodyMeshVuid": 2,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 24,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.0017328423,
+        "bodyMeshVuid": 2,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 25,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.3992813,
+        "bodyMeshVuid": 5,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 29,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.3181497,
+        "bodyMeshVuid": 7,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 31,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.3336509,
+        "bodyMeshVuid": 9,
+        "partRepositioning": false
+      }
+    },
+    {
+      "id": 20,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.00127092854,
+        "bodyMeshVuid": 8,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 30,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.00127092854,
+        "bodyMeshVuid": 8,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 40,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.00127092854,
+        "bodyMeshVuid": 8,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 42,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.00127092854,
+        "bodyMeshVuid": 8,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 43,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.00127092854,
+        "bodyMeshVuid": 8,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 44,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.00127092854,
+        "bodyMeshVuid": 8,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 16,
+      "type": "crewSeat",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "baseEfficiency": 1.0,
+        "operatedBehaviours": [
+          10
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "type": "posture",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "headPosition": [
+          0.0,
+          0.5856854,
+          -0.158100545
+        ],
+        "bodyPosition": [
+          0.0,
+          0.4,
+          -0.1
+        ],
+        "leftFootPosition": [
+          -0.173622087,
+          0.11702852,
+          0.429908156
+        ],
+        "rightFootPosition": [
+          0.173622087,
+          0.11702852,
+          0.429908156
+        ],
+        "leftHandPosition": [
+          -0.2992407,
+          0.563936651,
+          0.134702966
+        ],
+        "rightHandPosition": [
+          0.2992407,
+          0.563936651,
+          0.134702966
+        ],
+        "leftArmPolePosition": [
+          -0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "rightArmPolePosition": [
+          0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "leftLegPolePosition": [
+          -0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "rightLegPolePosition": [
+          0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "leftToesPosition": [
+          0.0,
+          0.07902173,
+          0.1451428
+        ],
+        "rightToesPosition": [
+          0.0,
+          0.07902173,
+          0.1451428
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "type": "crewSeat",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "baseEfficiency": 1.0,
+        "operatedBehaviours": []
+      }
+    },
+    {
+      "id": 35,
+      "type": "posture",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "headPosition": [
+          0.0,
+          0.5856854,
+          -0.158100545
+        ],
+        "bodyPosition": [
+          0.0,
+          0.4,
+          -0.1
+        ],
+        "leftFootPosition": [
+          -0.173622087,
+          0.11702852,
+          0.429908156
+        ],
+        "rightFootPosition": [
+          0.173622087,
+          0.11702852,
+          0.429908156
+        ],
+        "leftHandPosition": [
+          -0.2992407,
+          0.563936651,
+          0.134702966
+        ],
+        "rightHandPosition": [
+          0.2992407,
+          0.563936651,
+          0.134702966
+        ],
+        "leftArmPolePosition": [
+          -0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "rightArmPolePosition": [
+          0.25,
+          -0.099999994,
+          -0.1
+        ],
+        "leftLegPolePosition": [
+          -0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "rightLegPolePosition": [
+          0.1650371,
+          0.3124201,
+          0.3673215
+        ],
+        "leftToesPosition": [
+          0.0,
+          0.07902173,
+          0.1451428
+        ],
+        "rightToesPosition": [
+          0.0,
+          0.07902173,
+          0.1451428
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "type": "fuelTank",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 328,
+        "y": 575,
+        "z": 2035
+      }
+    },
+    {
+      "id": 39,
+      "type": "fuelTank",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 328,
+        "y": 575,
+        "z": 2035
+      }
+    },
+    {
+      "id": 41,
+      "type": "fuelTank",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 448,
+        "y": 466,
+        "z": 448
+      }
+    },
+    {
+      "id": 48,
+      "type": "fuelTank",
+      "blueprint": {
+        "v": "0.0",
+        "name": null,
+        "description": null,
+        "x": 448,
+        "y": 466,
+        "z": 448
+      }
+    },
+    {
+      "id": 49,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.05080583,
+        "bodyMeshVuid": 3,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 32,
+      "type": "layingDrive",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "elevation": {
+          "v": "0.4",
+          "flags": 3,
+          "torqueMultiplier": 1.0,
+          "ratio": 150.0,
+          "max": 20.0,
+          "min": -7.0
+        },
+        "azimuth": {
+          "v": "0.4",
+          "flags": 3,
+          "torqueMultiplier": 1.0,
+          "ratio": 50.0,
+          "max": 0.0,
+          "min": 0.0
+        }
+      }
+    },
+    {
+      "id": 54,
+      "type": "structure",
+      "blueprint": {
+        "v": "0.0",
+        "name": "Unnamed Structure",
+        "description": null,
+        "armourVolume": 0.03719029,
+        "bodyMeshVuid": 6,
+        "partRepositioning": true
+      }
+    },
+    {
+      "id": 56,
+      "type": "crewSeat",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "baseEfficiency": 1.0,
+        "operatedBehaviours": [
+          347
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "type": "posture",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "headPosition": [
+          0.0,
+          0.900479555,
+          0.0850276649
+        ],
+        "bodyPosition": [
+          0.0,
+          1.0724597,
+          0.315776557
+        ],
+        "leftFootPosition": [
+          -0.173622087,
+          0.1,
+          0.25
+        ],
+        "rightFootPosition": [
+          0.173622087,
+          0.1,
+          0.25
+        ],
+        "leftHandPosition": [
+          -0.253897548,
+          0.9109322,
+          0.325458
+        ],
+        "rightHandPosition": [
+          0.253897548,
+          0.9109322,
+          0.325458
+        ],
+        "leftArmPolePosition": [
+          -0.2083649,
+          0.0613054037,
+          -0.129321188
+        ],
+        "rightArmPolePosition": [
+          0.2083649,
+          0.0613054037,
+          -0.129321188
+        ],
+        "leftLegPolePosition": [
+          -0.294243217,
+          -0.6013177,
+          0.6557871
+        ],
+        "rightLegPolePosition": [
+          0.294243217,
+          -0.6013177,
+          0.6557871
+        ],
+        "leftToesPosition": [
+          -0.0288032,
+          0.00129315257,
+          0.145142823
+        ],
+        "rightToesPosition": [
+          0.0288032,
+          0.00129315257,
+          0.145142823
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "type": "crewSeat",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "baseEfficiency": 1.0,
+        "operatedBehaviours": [
+          346,
+          364,
+          261,
+          318
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "type": "posture",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "headPosition": [
+          0.0,
+          0.900479555,
+          0.0850276649
+        ],
+        "bodyPosition": [
+          0.0,
+          1.0724597,
+          0.315776557
+        ],
+        "leftFootPosition": [
+          -0.173622087,
+          0.1,
+          0.25
+        ],
+        "rightFootPosition": [
+          0.173622087,
+          0.1,
+          0.25
+        ],
+        "leftHandPosition": [
+          -0.253897548,
+          0.9109322,
+          0.325458
+        ],
+        "rightHandPosition": [
+          0.253897548,
+          0.9109322,
+          0.325458
+        ],
+        "leftArmPolePosition": [
+          -0.2083649,
+          0.0613054037,
+          -0.129321188
+        ],
+        "rightArmPolePosition": [
+          0.2083649,
+          0.0613054037,
+          -0.129321188
+        ],
+        "leftLegPolePosition": [
+          -0.294243217,
+          -0.6013177,
+          0.6557871
+        ],
+        "rightLegPolePosition": [
+          0.294243217,
+          -0.6013177,
+          0.6557871
+        ],
+        "leftToesPosition": [
+          -0.0288032,
+          0.00129315257,
+          0.145142823
+        ],
+        "rightToesPosition": [
+          0.0288032,
+          0.00129315257,
+          0.145142823
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "type": "crewSeat",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "baseEfficiency": 1.0,
+        "operatedBehaviours": [
+          365
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "type": "posture",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "headPosition": [
+          0.0,
+          0.900479555,
+          0.0850276649
+        ],
+        "bodyPosition": [
+          0.0,
+          1.0724597,
+          0.315776557
+        ],
+        "leftFootPosition": [
+          -0.173622087,
+          0.1,
+          0.25
+        ],
+        "rightFootPosition": [
+          0.173622087,
+          0.1,
+          0.25
+        ],
+        "leftHandPosition": [
+          -0.253897548,
+          0.9109322,
+          0.325458
+        ],
+        "rightHandPosition": [
+          0.253897548,
+          0.9109322,
+          0.325458
+        ],
+        "leftArmPolePosition": [
+          -0.2083649,
+          0.0613054037,
+          -0.129321188
+        ],
+        "rightArmPolePosition": [
+          0.2083649,
+          0.0613054037,
+          -0.129321188
+        ],
+        "leftLegPolePosition": [
+          -0.294243217,
+          -0.6013177,
+          0.6557871
+        ],
+        "rightLegPolePosition": [
+          0.294243217,
+          -0.6013177,
+          0.6557871
+        ],
+        "leftToesPosition": [
+          -0.0288032,
+          0.00129315257,
+          0.145142823
+        ],
+        "rightToesPosition": [
+          0.0288032,
+          0.00129315257,
+          0.145142823
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "type": "crewSeat",
+      "blueprint": {
+        "v": "0.1",
+        "name": null,
+        "description": null,
+        "baseEfficiency": 1.0,
+        "operatedBehaviours": [
+          389
+        ]
+      }
+    },
+    {
+      "id": 64,
+      "type": "posture",
+      "blueprint": {
+        "v": "1.0",
+        "name": null,
+        "description": null,
+        "headPosition": [
+          0.0,
+          0.900479555,
+          0.0850276649
+        ],
+        "bodyPosition": [
+          0.0,
+          1.0724597,
+          0.315776557
+        ],
+        "leftFootPosition": [
+          -0.173622087,
+          0.1,
+          0.25
+        ],
+        "rightFootPosition": [
+          0.173622087,
+          0.1,
+          0.25
+        ],
+        "leftHandPosition": [
+          -0.253897548,
+          0.9109322,
+          0.325458
+        ],
+        "rightHandPosition": [
+          0.253897548,
+          0.91093
