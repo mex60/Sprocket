@@ -1,0 +1,56 @@
+{
+  "v": "0.2",
+  "name": "Tiger II turret",
+  "smoothAngle": 0,
+  "gridSize": 1,
+  "format": "TST",
+  "generationBlueprintVuid": -1,
+  "generationBlueprintType": "threeSplitTurret",
+  "generationBlueprint": {
+    "v": "0.0",
+    "name": null,
+    "description": null,
+    "generationData": {
+      "v": "0.1",
+      "dataVersion": "0.0",
+      "shape": [
+        1.07492137,
+        1.7,
+        1.20884132,
+        2.865229,
+        1.05574536,
+        26.5941143,
+        0.202144384,
+        25.4907913,
+        0.185625672,
+        18.7005119,
+        10.4811106,
+        16.0791645
+      ],
+      "armour": [
+        200,
+        30,
+        75,
+        70,
+        75,
+        30,
+        18,
+        18,
+        5
+      ],
+      "shapeFlags": 0
+    }
+  },
+  "rivets": {
+    "profiles": [
+      {
+        "model": 0,
+        "spacing": 0.1,
+        "diameter": 0.05,
+        "height": 0.025,
+        "padding": 0.04
+      }
+    ],
+    "nodes": []
+  }
+}
